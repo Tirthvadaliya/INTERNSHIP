@@ -1,0 +1,100 @@
+
+
+<div style="max-width: 290px; font-family: Arial; background-color: blanchedalmond; align-content: center;">
+  <h2>Client Details Form</h2>
+
+
+  <form (ngSubmit)="onSub()">
+    <label>First Name:</label><br>
+    <input type="text" [(ngModel)]="fname" name="name" required /><br><br>
+
+    <label>Last Name:</label><br>
+    <input type="text" [(ngModel)]="lname" name="name" required /><br><br>
+
+    <label>Select gender:</label><br>
+
+    <input type="radio" [(ngModel)]="myVar" name="myVar" value="Male"/>Male
+    <input type="radio" [(ngModel)]="myVar" name="myVar"value="Female"/>Female<br><br>
+
+
+    <label>Email:</label><br>
+    <input type="email" [(ngModel)]="email" name="email" required /><br><br>
+
+    <label>Phone Number:</label><br>
+    <input type="tel" [(ngModel)]="number" name="number" required /><br><br>
+
+    <label>Address:</label><br>
+    <textarea [(ngModel)]="address" name="address" rows="2" required></textarea><br><br>
+
+    <!-- <label>Select Country:</label><br>
+    <select [(ngModel)]="country" name="country" required>
+    <option value="" disabled selected>Select a country</option>
+    <option *ngFor="let c of countries" [value]="c">{{ c }}</option>
+    </select><br><br> -->
+
+
+    <button type="submit">SUBMIT </button>&nbsp;&nbsp;&nbsp;
+    <button type="reset">RESET</button>
+  </form>
+
+
+  <div ngIf="Entered" style="margin-top: 30px; font-family:Amasis MT Pro Black">
+    <h2><b>Client Details :</b></h2>
+    <table border="1" cellpadding="8" cellspacing="2">
+      <tr>
+        <th>Field</th>
+        <th>Value</th>
+      </tr>
+      <tr>
+        <td>First Name</td>
+        <td style="background-color: aliceblue;">{{ enteredData.fname }}</td>
+      </tr>
+      <tr>
+        <td>Last Name</td>
+        <td style="background-color: aliceblue;">{{ enteredData.lname }}</td>
+      </tr>
+      <tr>
+        <td>Gender</td>
+        <td style="background-color: aliceblue;">{{ enteredData.myVar }}</td>
+      </tr>
+      <tr>
+        <td>Email</td>
+        <td style="background-color: aliceblue;">{{ enteredData.email }}</td>
+      </tr>
+      <tr>
+        <td>Phone</td>
+        <td style="background-color: aliceblue;">{{ enteredData.number }}</td>
+      </tr>
+      <tr>
+        <td>Address</td>
+        <td style="background-color: aliceblue;">{{ enteredData.address }}</td>
+      </tr>
+      <!-- <tr>
+      <td>Country</td>
+      <td style="background-color: aliceblue;">{{ enteredData.country }}</td>
+      </tr> -->
+    </table>
+  </div>
+</div>
+
+
+
+<!-- <diEntered" style="margin-top: 30px;">
+  <h3>Entered Data:</h3>
+  <p><strong>First_Name:</strong> {{ enteredData.fname }}</p>
+  <p><strong>Last_Name:</strong> {{ enteredData.lname }}</p>
+  <p><strong>Gender:</strong> {{ enteredData.myVar }}</p>
+  <p><strong>Email:</strong> {{ enteredData.email }}</p>
+  <p><strong>Phone:</strong> {{ enteredData.number }}</p>
+  <p><strong>Address:</strong> {{ enteredData.address }}</p>
+</div>
+</div> -->
+
+
+
+
+
+
+
+
+
