@@ -1,0 +1,6 @@
+[  Scaffold-DBContext "Host=localhost; database=MyDB; Username=postgres; Password=0123" Npgsql.EntityFrameworkCore.PostgreSQL -OutputDir Models   ]
+
+
+
+The above line is a .NET CLI command, used to scaffold or generate the Entity Framework (EF) Core DbContext and entity classes from an existing PostgreSQL database using the Npgsql.EntityFrameworkCore.PostgreSQL provider.
+
