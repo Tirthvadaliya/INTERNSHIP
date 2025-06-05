@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vadal\\source\\repos\\EmployeAPI_Final\\EmployeAPI\\EmployeAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{017D4F42-9970-4872-95BD-8A54E481A2E9}|EmployeAPI\\EmployeAPI.csproj|c:\\users\\vadal\\source\\repos\\employeapi_final\\employeapi\\employeapi\\employeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{017D4F42-9970-4872-95BD-8A54E481A2E9}|EmployeAPI\\EmployeAPI.csproj|solutionrelative:employeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017D4F42-9970-4872-95BD-8A54E481A2E9}|EmployeAPI\\EmployeAPI.csproj|c:\\users\\vadal\\source\\repos\\employeapi_final\\employeapi\\employeapi\\employeapi\\controllers\\employecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{017D4F42-9970-4872-95BD-8A54E481A2E9}|EmployeAPI\\EmployeAPI.csproj|solutionrelative:employeapi\\controllers\\employecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017D4F42-9970-4872-95BD-8A54E481A2E9}|EmployeAPI\\EmployeAPI.csproj|c:\\users\\vadal\\source\\repos\\employeapi_final\\employeapi\\employeapi\\employeapi\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{017D4F42-9970-4872-95BD-8A54E481A2E9}|EmployeAPI\\EmployeAPI.csproj|solutionrelative:employeapi\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vadal\\source\\repos\\EmployeAPI_Final\\EmployeAPI\\EmployeAPI\\EmployeAPI\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\vadal\\source\\repos\\EmployeAPI_Final\\EmployeAPI\\EmployeAPI\\EmployeAPI\\Program.cs",
+              "RelativeToolTip": "EmployeAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T10:02:34.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JwtHelper.cs",
+              "DocumentMoniker": "C:\\Users\\vadal\\source\\repos\\EmployeAPI_Final\\EmployeAPI\\EmployeAPI\\EmployeAPI\\Helpers\\JwtHelper.cs",
+              "RelativeDocumentMoniker": "EmployeAPI\\Helpers\\JwtHelper.cs",
+              "ToolTip": "C:\\Users\\vadal\\source\\repos\\EmployeAPI_Final\\EmployeAPI\\EmployeAPI\\EmployeAPI\\Helpers\\JwtHelper.cs",
+              "RelativeToolTip": "EmployeAPI\\Helpers\\JwtHelper.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T06:48:49.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeController.cs",
+              "DocumentMoniker": "C:\\Users\\vadal\\source\\repos\\EmployeAPI_Final\\EmployeAPI\\EmployeAPI\\EmployeAPI\\Controllers\\EmployeController.cs",
+              "RelativeDocumentMoniker": "EmployeAPI\\Controllers\\EmployeController.cs",
+              "ToolTip": "C:\\Users\\vadal\\source\\repos\\EmployeAPI_Final\\EmployeAPI\\EmployeAPI\\EmployeAPI\\Controllers\\EmployeController.cs",
+              "RelativeToolTip": "EmployeAPI\\Controllers\\EmployeController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAswCQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T06:05:44.982Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
